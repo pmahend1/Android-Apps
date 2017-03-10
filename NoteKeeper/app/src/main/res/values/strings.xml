@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Note Keeper</string>
+    <string name="show_all">Show All</string>
+    <string name="show_completed">Show Completed</string>
+    <string name="show_pending">Show Pending</string>
+    <string name="sort_by_time">Sort By Time</string>
+    <string name="sort_by_priority">Sort By priority</string>
+    <string name="spinner_prompt">Priority</string>
+    <string name="add">Add</string>
+    <string-array name="spinner_values">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/opt_show_all"
+        app:showAsAction="never"
+        android:title="@string/show_all" />
+    <item android:id="@+id/opt_show_completed"
+        android:title="@string/show_completed"
+        app:showAsAction="never"/>
+    <item android:id="@+id/opt_show_pending"
+        app:showAsAction="never"
+        android:title="@string/show_pending" />
+    <item android:id="@+id/opt_sort_by_time"
+    app:showAsAction="never"
+    android:title="@string/sort_by_time" />
+
+    <item android:id="@+id/opt_sort_by_priority"
+        app:showAsAction="never"
+        android:title="@string/sort_by_priority" />
+
+
+    </menu>
