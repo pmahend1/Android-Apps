@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Trivia App</string>
+    <string name="textView_Welcome">Welcome To Trivia App</string>
+    <string name="button_Exit">Exit</string>
+    <string name="Button_StartTrivia">Start Trivia</string>
+    <string name="textView_QNo" />
+    <string name="textView_Timer">Time Left :</string>
+    <string name="editText_Time" />
+    <string name="button_Previous">Previous</string>
+    <string name="button_Next">Next</string>
+    <string name="textView_CorrectAnswers">Correct Answers :</string>
+    <string name="textView_Performance">Your Performance : </string>
+    <string name="button_Finish">Finish</string>
+    <string name="textView_Percent" />
+    <item name="triviaFinish" type="id">triviaFinishButton</item>
+</resources>

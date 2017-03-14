@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_9cc9f8de42b6c4fbfa27be95b511929996bd9877\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_b1588bdf7365087b0af7db755117f2c5847bbf43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_b0a68e9300e3df091f48677ca89a966c3076f2da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_f7ce4a2b8db88bce7babd228c355c5480853223f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_b8933e840beada30870e68650c9e4dd25e4c813b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="61af3b0d125b296c2049f235aa3a6b4bb05a56cd">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1fd637d7bb6435cb7ec077b45b9856446b4db499\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_19bb55b586a12dc13cf4b83818149f282784c200\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_201c9e11f7cbef917be02559dc34fb3609e69c15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_1311149eb881e73b16f99a5b1875b583e499767a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_a8089784a9cdd56c557330d55ce82c32e105faf6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_d2964455eb9fd9c9059f3e3d6af2870fd2542b0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_88c01b170e77db0a7bdc3f2b540f18eb6bd2a83a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_864271b29ccc9fd9558aa9a492f56736ecf294b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ef3d568c2d2a6e7e8df5f2782c41526aa7796c04">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_bb9214e2ee012fee981a6b9ed8ab571ac0d0badf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TriviaApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_b70f708f9bd7fe508f1a788b1111120206200812\classes.dex" />
+    </item>
+
+</items>

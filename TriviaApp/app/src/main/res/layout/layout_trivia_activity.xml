@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="389dp"
+        android:layout_height="43dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.15">
+
+        <TextView
+            android:id="@+id/textView_QNo"
+            android:layout_width="63dp"
+            android:layout_height="46dp"
+            android:text="@string/textView_QNo"
+            android:layout_weight="0.16"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textAlignment="viewStart" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.45" />
+
+        <TextView
+            android:id="@+id/textView_Timer"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="@string/textView_Timer"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView_timeLeft"
+            android:layout_weight="0.22"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView_Image"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:layout_weight="0.82" />
+
+    <TextView
+        android:id="@+id/textView_Question"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="231dp"
+        android:id="@+id/scrollView_Answers"
+        android:minHeight="250dp"
+
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout_11">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/radioGroup_choices"
+                android:orientation="vertical">
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="1"
+        android:id="@+id/linearLayout_buttons"
+        android:layout_weight="0.07">
+
+        <Button
+            android:text="@string/button_Previous"
+            android:layout_width="wrap_content"
+            android:id="@+id/button_previous"
+            android:layout_weight="0.19"
+            android:layout_height="75dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.58" />
+
+        <Button
+            android:text="@string/button_Next"
+            android:layout_width="wrap_content"
+            android:layout_height="74dp"
+            android:id="@+id/button_next"
+            android:layout_weight="0.18" />
+    </LinearLayout>
+
+
+</LinearLayout>
