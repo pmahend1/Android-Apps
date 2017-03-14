@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="fabButton1">1111111111</item>
+    <item type="id" name="fabButton2">2222222222</item>
+    <item type="id" name="fabButton3">3333333333</item>
+    <item type="id" name="fabButton4">4444444444</item>
+    <item type="id" name="fabButton5">555555555</item>
+    <item type="id" name="fabButton6">10006</item>
+    <item type="id" name="fabButton7">10007</item>
+    <item type="id" name="fabButton8">10008</item>
+    <item type="id" name="fabButton9">10009</item>
+    <item type="id" name="fabButton10">10010</item>
+    <item type="id" name="fabButton11">10011</item>
+    <item type="id" name="fabButton12">10012</item>
+    <item type="id" name="fabButton13">10013</item>
+    <item type="id" name="fabButton14">10014</item>
+    <item type="id" name="fabButton15">10015</item>
+    <item type="id" name="fabButton16">10016</item>
+    <item type="id" name="fabButton17">10017</item>
+    <item type="id" name="fabButton18">10018</item>
+    <item type="id" name="fabButton19">10019</item>
+    <item type="id" name="fabButton20">10020</item>
+
+</resources>

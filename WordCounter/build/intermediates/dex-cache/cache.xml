@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_afc63d196b61fb55bb1f8b0b06bf134d3911b7d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_5b537ad5b92d595726461ad8a9f23c5e6813beee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e36bf2faf9ade2abdbc7085e92611fd747fe80bc">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d42b6f332678f9ddb5c36587514a904b103b6d1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.1_356398c7d7c7eee6f3ee526bb6a3c6a53d1ced24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.1_89b4e22a334e7a7dd1575f3d9b5f04e11869998f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_c3d76bba6695d4b406f966c350b130ea41b5402e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_f7ce4a2b8db88bce7babd228c355c5480853223f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_0e513409154d9bfef7d62967d7d93bb44ae0abe8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.1_fa734c562880d173debc272edecc4e833183d00f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_55a2816156d48b7f44cbcca87980c570bd5e0da6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_cb73adb7691c5c7d8e0b3a1de36736030eda5bc1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_9e0d995d0c646c8e583baf1d3b4d311f33858cb2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_2165888d398ae637b304210d2745eb09b9a5a303\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_2ee40b1e61cca3c8def4abfc4804a676018c5bc4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09ea0bca675edc544bcb731e49edd10cec24502c">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_18d6373d0bf3535181946eb9bdda4d94d2c31621\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_e1962726825f521b6c1211cb73cfee9c62f0d523\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_24a59a49e6923498cbe216e1e322f4223d3f52fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\WordCounter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_02e9d6341a98603ac990dda945312f47d79d59cd\classes.dex" />
+    </item>
+
+</items>

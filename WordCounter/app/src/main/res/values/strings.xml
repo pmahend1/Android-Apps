@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Word Counter</string>
+    <string name="textView_addWordsToSearch">Add Words to Search</string>
+    <string name="textView_matchCase">Match Case</string>
+    <string name="button_search">Search</string>
+    <string name="textView_wordFrequencies">Word Frequencies</string>
+    <string name="button_finish">Finish</string>
+</resources>
