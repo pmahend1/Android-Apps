@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_fcf513a4a905df8a4f46126bd1a17dba2d53e61a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_a67c3d09183496f08fc00d17bafb83e75e2e0265\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_8741a8921bfc7d34dc24c30b6adbb82db997e7cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="badb158ab2fda5cda0903600d82e5d6f96e82dc5">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_60445063d168efb8ab828721fea17461d98c0ea1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_933fe70432b10e79eee04e92f741cff4c22671be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_e26d15ebe823e9925e7dc672e821ff27cdc43189\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_d9fcb8cf03a568c648111932fe5f71191ebbe168\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de9844b40d2c80d98dc4477c360af2dc639e8c33">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fafd5953c99f421e5b47bc8da4e7b13cfd769fa8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_4e63d9c145b4e0994dc7979f1a6fa443b6093a43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_f7ce4a2b8db88bce7babd228c355c5480853223f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_45fc9c3600ff74993410d36eaf4737142a520b1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_05ee3909c7ad44e4abb8d50647ea0acc4baa324f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_ef4644d540175238e2b85ae7cb94003f8fa28425\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_c28a96b4787bca33a05f7763b49d2ea24af719ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\PasswordGenerator\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_4857102c17232b0f48f837d40aa8d419703683f8\classes.dex" />
+    </item>
+
+</items>

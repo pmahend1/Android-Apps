@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PasswordGenerator</string>
+    <string name="textView_forThread">For Thread</string>
+    <string name="textView_selectPasswordCount">Select Password Count:</string>
+    <string name="textView_selectPasswordLength1">Select Password Length</string>
+    <string name="textView_forAsyncTask">For Async Task:</string>
+    <string name="button_generate">Generate</string>
+    <string name="textView_passwordsGeneratedUsingThread">Passwords Generated Using Threads</string>
+    <string name="textView_passwordsGeneratedUsingAsyncTask">Passwords Generated Using Async Task</string>
+    <string name="button_finish">Finish</string>
+</resources>
