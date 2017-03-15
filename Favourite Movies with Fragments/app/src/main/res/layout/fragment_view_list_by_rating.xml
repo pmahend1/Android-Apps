@@ -1,0 +1,226 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.uncc.prateek.favouritemovieswithfragments.ViewListByRatingFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:weightSum="1">
+
+        <TextView
+            android:text="@string/textView_ViewRatingTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_MoviesByYear"
+            android:layout_weight="0.08"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10">
+
+            <TextView
+                android:text="@string/textView_YearTitle"
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView_TitleByRating"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textAlignment="viewStart"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView_viewRatingTitle"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/textView_YearDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_RatingrDescription"
+            android:layout_weight="0.06"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="normal|bold" />
+        <ScrollView
+            android:id="@+id/SCROLLER_ID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:fillViewport="true"
+            android:layout_weight="0.60">
+            <TextView
+                android:text="@string/textView_ViewYearDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_ViewRatingDescription"
+                android:layout_weight="0.39"
+                android:maxLines="5"
+                android:lines="5"
+                android:scrollbars="vertical"
+                android:background="@drawable/border"
+                android:requiresFadingEdge="vertical"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </ScrollView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="0.04">
+
+            <TextView
+                android:text="@string/textView_YearGenre"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView_ViewGenreRating"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView_ViewRatingGenre"
+                android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="0.03">
+
+            <TextView
+                android:text="@string/textView_YearRating"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView_RatingRating"
+                android:layout_weight="0.02"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView_ViewRatingRatingValue"
+                android:layout_weight="0.26"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_weight="0.04">
+
+            <TextView
+                android:text="@string/textView_YearYear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView_RatingYear"
+                android:layout_weight="0.14"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView_ViewRatingYear"
+                android:layout_weight="1.00"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="47dp">
+
+            <TextView
+                android:text="@string/textView_YearIMDB"
+                android:layout_width="79dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_ViewRatingIMDB"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_ViewRatingIMDBValue"
+                android:layout_weight="1"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:weightSum="1"
+            android:layout_weight="0.01"
+            android:id="@+id/lLL">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/first"
+                android:id="@+id/button_firstMovieByRating"
+                android:maxWidth="20dp"
+                android:maxHeight="30dp"
+                android:layout_weight="0.51" />
+
+            <ImageButton
+                android:layout_width="61dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/previous"
+                android:id="@+id/button_previousMovieByRating"
+                android:maxWidth="20dp"
+                android:maxHeight="30dp"
+                android:layout_weight="0.14"
+                android:focusable="true"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/button_finishRating"
+                android:text="@string/button_finish"
+                android:layout_weight="0.30" />
+            <ImageButton
+                android:layout_width="49dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/next"
+                android:id="@+id/button_nextMovieByRating"
+                android:maxWidth="20dp"
+                android:maxHeight="30dp"
+                android:layout_weight="0.23" />
+
+            <ImageButton
+                android:layout_width="71dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/last"
+                android:id="@+id/button_lastMovieByRating"
+                android:maxWidth="20dp"
+                android:maxHeight="30dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

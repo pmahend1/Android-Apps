@@ -1,0 +1,160 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uncc.prateek.favouritemovieswithfragments.AddMovieFragment"
+    android:id="@+id/fragment_add_movie">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_addMovie_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView_movieNameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/textView_movieName"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <EditText
+                android:id="@+id/editText_movieNameValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLength="50" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView_descriptionLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_description"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <EditText
+            android:id="@+id/textView_description_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31"
+            android:ems="10"
+            android:background="@drawable/border"
+            android:inputType="textMultiLine" />
+
+        <Space
+            android:id="@+id/space_50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_genreLabel"
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:text="@string/textView_genre"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
+
+            <Spinner
+                android:id="@+id/spinner_genre"
+                android:layout_width="267dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/spinner_genreValues" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView_ratingLabel"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.58"
+                android:text="@string/textView_ratingLabelq"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <SeekBar
+                android:id="@+id/seekBar_rating"
+                android:layout_width="259dp"
+                android:layout_height="wrap_content"
+                android:max="5"
+
+                android:progress="@android:integer/config_longAnimTime" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="43dp"
+            android:layout_weight="0.00"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView_yearLabel"
+                android:layout_width="59dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.30"
+                android:text="@string/textView_yearLabel"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <EditText
+                android:id="@+id/editText_yearValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.52"
+                android:ems="10"
+                android:inputType="number" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_IMDBLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/textView_IMDBLabel"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <EditText
+                android:id="@+id/editText_imdbLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_addMovieOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_addMovie" />
+    </LinearLayout>
+
+
+</FrameLayout>
