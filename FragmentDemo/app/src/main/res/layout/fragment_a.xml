@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uncc.prateek.fragmentdemo.AFragment"
+    android:background="@android:color/holo_red_dark">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="@string/hello_blank_fragment" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="366dp"
+        android:layout_height="93dp"
+        android:text="Button" />
+
+    <EditText
+        android:id="@+id/editText_enterAtFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</LinearLayout>
