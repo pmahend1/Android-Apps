@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">In Class 2B</string>
+    <string name="textview_targetWeight">Target Weight</string>
+    <string name="textView_BMIRanges">BMI Ranges</string>
+    <string name="radioButton_lessThan18_5"><![CDATA[< 18.5]]></string>
+    <string name="radioButton_between18_5to24_9">18.5 to 24.9</string>
+    <string name="radioButton_between25to29_9">25.0 to 29.9</string>
+    <string name="radioButton_above29_9"><![CDATA[> 29.9]]></string>
+    <string name="textView_height">Height</string>
+    <string name="editText_feet">Feet</string>
+    <string name="editText_Inches">Inches</string>
+    <string name="button_calculateWeight">Calculate Weight</string>
+    <string name="textView_Feet">Feet</string>
+    <string name="textView_inches">Inches</string>
+</resources>

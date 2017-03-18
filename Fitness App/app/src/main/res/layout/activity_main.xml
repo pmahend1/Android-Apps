@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.uncc.prateek.inclass2b.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout_vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <TextView
+            android:text="@string/textview_targetWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_weightEstimator"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textStyle="normal|bold" />
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="15dp"/>
+        <TextView
+            android:text="@string/textView_BMIRanges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_BMIRanges"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroup_BMIRanges">
+
+            <RadioButton
+                android:text="@string/radioButton_lessThan18_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton_lessThan18_5" />
+
+            <RadioButton
+                android:text="@string/radioButton_between18_5to24_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton_between18_5to24_9"
+                android:checked="true"/>
+
+            <RadioButton
+                android:text="@string/radioButton_between25to29_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton_between25to29_9" />
+
+            <RadioButton
+                android:text="@string/radioButton_above29_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton_above29.9" />
+
+        </RadioGroup>
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="15dp"/>
+        <TextView
+            android:text="@string/textView_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_height"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText_feet" />
+
+            <TextView
+                android:text="@string/textView_Feet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_feet"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText_Inches"
+                android:layout_weight="0.83" />
+
+            <TextView
+                android:text="@string/textView_inches"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_inches"
+                android:layout_weight="1.13" />
+        </LinearLayout>
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="15dp"/>
+        <Button
+            android:text="@string/button_calculateWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_calculateWeight"
+            android:onClick="weightEstimator"
+
+            />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView_weightEstimatorOutput" />
+
+    </LinearLayout>
+</RelativeLayout>
