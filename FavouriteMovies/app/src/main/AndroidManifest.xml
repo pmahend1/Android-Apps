@@ -21,9 +21,28 @@
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".EditMovieActivity"
+            android:label="@string/title_activity_edit_movie"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewListByYear"
+            android:label="@string/title_activity_viewByYear"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ViewListByRating"
+            android:label="@string/title_activity_viewByRating"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".DeleteMovieActivity"></activity>
     </application>
 
 </manifest>
