@@ -1,4 +1,15 @@
+
+/*
+a. Assignment #. Homework 2
+b. File Name : MainActivity.java
+c. Group : 6
+c. Name of students: Prateek Mahendrakar , Siva Ram Praneeth Vemulapalli
+
+ */
 package com.uncc.prateek.favouritemovies;
+
+import android.os.Parcel;
+import android.os.Parcelable;
 
 import java.io.Serializable;
 
@@ -32,6 +43,28 @@ public class Movie implements Serializable{
         this.year = year;
         this.IMDB = IMDB;
     }
+
+
+    protected Movie(Parcel in) {
+        name = in.readString();
+        description = in.readString();
+        genre = in.readString();
+        rating = in.readInt();
+        year = in.readInt();
+        IMDB = in.readString();
+    }
+
+    /*public static final Creator<Movie> CREATOR = new Creator<Movie>() {
+        @Override
+        public Movie createFromParcel(Parcel in) {
+            return new Movie(in);
+        }
+
+        @Override
+        public Movie[] newArray(int size) {
+            return new Movie[size];
+        }
+    };*/
 
     public String getName() {
         return name;
@@ -92,4 +125,19 @@ public class Movie implements Serializable{
     public void setIMDB(String IMDB) {
         this.IMDB = IMDB;
     }
+
+    /*@Override
+    public int describeContents() {
+        return 0;
+    }
+*/
+  /*  @Override
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeString(name);
+        parcel.writeString(description);
+        parcel.writeString(genre);
+        parcel.writeInt(rating);
+        parcel.writeInt(year);
+        parcel.writeString(IMDB);
+    }*/
 }

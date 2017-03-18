@@ -13,18 +13,15 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
-
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-
-import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,15 +33,13 @@ public class AddMovieActivity extends AppCompatActivity {
     int year= 0;
     String imdbLink = "";
     private String logLevel = "Add Movie";
-
+    public static final String MovieLIST="MOVIELIST";
     private String logStep = "";
-    List<Movie> movieList = new ArrayList<Movie>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_add_movie);
-
 
         final Spinner spinnerGenre  = (Spinner) findViewById(R.id.spinner_genre);
         final Context context = AddMovieActivity.this;
@@ -59,38 +54,61 @@ public class AddMovieActivity extends AppCompatActivity {
         }catch (Exception e){
             Log.d(logLevel,e.getMessage());
         }
-/*
-            spinnerGenre.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        SeekBar seek = (SeekBar) findViewById(R.id.seekBar_rating);
 
-                    Log.d(logLevel,spinnerGenre.getSelectedItem().toString());
-                }
-            });
-*/
+        rating= seek.getProgress();
+        TextView tvRatingVal = (TextView) findViewById(R.id.textView_ratingValueAdd);
+        tvRatingVal.setText(Integer.toString(rating));
 
+        EditText editTextDesc = (EditText) findViewById(R.id.textView_description_value);
+        description = editTextDesc.getText().toString();
+        editTextDesc.setMovementMethod(new ScrollingMovementMethod());
+
+        seek.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener(){
+
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress,
+                                          boolean fromUser) {
+                // TODO Auto-generated method stub
+                TextView tvRatingVal = (TextView) findViewById(R.id.textView_ratingValueAdd);
+                tvRatingVal.setText(String.valueOf(progress));
+                Log.d(logLevel,"Seekbar value changed");
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+                // TODO Auto-generated method stub
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                // TODO Auto-generated method stub
+            }
+        });
         findViewById(R.id.button_addMovieOk).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 EditText editText_movieNameVal = (EditText) findViewById(R.id.editText_movieNameValue);
-                 movieName = editText_movieNameVal.getText().toString();
+                movieName = editText_movieNameVal.getText().toString();
                 Log.d(logLevel,"Movie name "+movieName);
 
                 EditText editTextDesc = (EditText) findViewById(R.id.textView_description_value);
-                 description = editTextDesc.getText().toString();
+                description = editTextDesc.getText().toString();
                 Log.d(logLevel,description);
 
                 genre = spinnerGenre.getSelectedItem().toString();
 
                 SeekBar seek = (SeekBar) findViewById(R.id.seekBar_rating);
                 rating= seek.getProgress();
+/*                TextView tvRatingVal = (TextView) findViewById(R.id.textView_ratingValueAdd);
+                tvRatingVal.setText(Integer.toString(rating));*/
                 logStep="Get year value";
                 EditText editTextYear = (EditText) findViewById(R.id.editText_yearValue);
                 try{
                     year= Integer.parseInt(editTextYear.getText().toString());
                 }catch (Exception e){
                     Log.d(logLevel ,logStep+e.getMessage());
-                    Toast.makeText(context,"Error in year",10);
+                    Toast.makeText(context,"Error in year",Toast.LENGTH_LONG);
                 }
 
 
@@ -105,15 +123,23 @@ public class AddMovieActivity extends AppCompatActivity {
                 addMovie.setRating(rating);
                 addMovie.setYear(year);
                 logStep = "Print movie obj ";
-                Log.d(logLevel,logStep+addMovie.toString());
 
+                String msg = Validator.validate(addMovie);
+                Log.d(logLevel,"|"+msg+"|");
+                if(msg==null){
+                    msg="";
+                }
+                if(msg.isEmpty()){
+                    Log.d(logLevel,addMovie.toString());
+                    Intent intent =  new Intent();
+                    intent.putExtra(MainActivity.ADD_MOVIE_KEY,addMovie);
+                    setResult(RESULT_OK,intent);
+                    finish();
+                }
+                else{
+                    Toast.makeText(context,msg,Toast.LENGTH_LONG).show();
+                }
 
-                Intent intent =  new Intent();
-
-                intent.putExtra(MainActivity.ADD_MOVIE_KEY,addMovie);
-                setResult(RESULT_OK,intent);
-                Log.d(logLevel,"Finishing activity");
-                finish();
 
             }
         });
