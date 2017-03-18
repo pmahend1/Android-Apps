@@ -14,12 +14,44 @@
         <item>Comedy</item>
         <item>Documentory</item>
         <item>Family</item>
+        <item>Thriller</item>
         <item>Horror</item>
         <item>Crime</item>
         <item>Others</item>
     </string-array>
     <string name="title_activity_add_movie">Add Movie</string>
-    <string name="textView_ratingLabelq">Rating</string>
-    <string name="textView_yearLabel">Year</string>
-    <string name="textView_IMDBLabel">IMDB</string>
+    <string name="title_activity_edit_movie">Edit Movie</string>
+    <string name="title_activity_viewByYear">Movies By Year</string>
+    <string name="title_activity_viewByRating">Movies By Rating</string>
+    <string name="textView_ratingLabelq">Rating:</string>
+    <string name="textView_yearLabel">Year:</string>
+    <string name="textView_IMDBLabel">IMDB:</string>
+    <string name="textView_MoviesByYear">Movies By Year</string>
+    <string name="textView_YearTitle">Title:</string>
+    <string name="textView_ViewYearTitle" />
+    <string name="textView_YearDescription">Description:</string>
+    <string name="textView_ViewYearDescription" />
+    <string name="textView_YearGenre">Genre:</string>
+    <string name="textView_ViewYearGenre" />
+    <string name="textView_YearRating">Rating:</string>
+    <string name="textView_ViewYearRating" />
+    <string name="textView_YearYear">Year:</string>
+    <string name="textView_ViewYearYear" />
+    <string name="textView_YearIMDB">IMDB:</string>
+    <string name="textView_ViewYearIMDB" />
+    <string name="textView_MoviesByRating">Movies By Rating</string>
+    <string name="textView_RatingTitle">Title:</string>
+    <string name="textView_ViewRatingTitle" >Movies By Rating</string>
+    <string name="textView_RatingDescription">Description:</string>
+    <string name="textView_ViewRatingDescription" />
+    <string name="textView_RatingGenre">Genre:</string>
+    <string name="textView_ViewRatingGenre" />
+    <string name="textView_RatingRating">Rating:</string>
+    <string name="textView_ViewRatingRating" />
+    <string name="textView_RatingYear">Year:</string>
+    <string name="textView_ViewRatingYear" />
+    <string name="textView_RatingIMDB">IMDB:</string>
+    <string name="textView_ViewRatingIMDB" />
+    <string name="button_saveChanges">Save Changes</string>
+    <string name="button_finish">Finish</string>
 </resources>
