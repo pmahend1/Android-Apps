@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="35dip"
+    android:gravity="center_vertical"
+    android:background="@android:color/black"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/header"
+        android:background="@drawable/icon"
+        android:layout_width="66dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:background="#07000000"
+        android:textStyle="bold"
+        android:layout_weight="0.80" />
+
+    <ImageButton
+        android:id="@+id/button_switch_view"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_always_landscape_portrait" />
+</LinearLayout>

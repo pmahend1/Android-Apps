@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_ede4d9ff23d45afb243312814f629245f9de5e4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\50f62d7c611a2305b6f04301eeed1658fa499ece\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\classes_d32e3ec131ff6f96487a734d3c8a3e8fce3d83b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_aba965ca15014b48e85a3f71046a4845a0a44497.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\a09e3c668d4d41adebb8f27f1e33f0370cb82fcd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\classes_276831c5637ebafe16bb6bded3c4cde412a299f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\fa1defb3d64df3df47b48b78cd87e9a5f77518a5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30a4938ea5235ccf532b3e9f04200e68547e36ad">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\classes_d139b463b637a71ed740126a7dd3785ecb821ceb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\fb4bd919f59bc629702076070ee02248dad19213\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\classes_56ca7d430d77dcd19e0685d8e3e52a3b832f1d17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\9804ecac2c3a346bc52ae00ebbadf6e774c24903\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\classes_5100f6eaba9f30ca02c25a428e8c1a0ffb2bf656.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f02b533a0b44d4cac38d753f76ceb8272408a246\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\da6596d4a9e56d308fd316856f937b0d1f62763f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\classes_74d4cb59b3c2f01b4203c64cb89c1610504952a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\support-annotations-25.2.0_11a64ba4691a94fdd786f3bb0e024b14663f787c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\ccad8ce66c6ccd0d0e59c8973046f7b4ba72ee76\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\classes_34a3921f4b031f0e6b9058253a29222705f48334.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\2568bdda37d34ec883781e1238a8786e599dd443\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\classes_4267e2ec7836b2f1c9a4157b5889602072fe346b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d646ab6abe91cf4e87a3a84a1ce4982ddb1b0f35">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0eb1b2274787d163155fe24b255a74791d65a940\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\6e7d2d2ff60fcae00eafdd45378337cc511762b9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\classes_e90b525484578fb7c11e2239b4af87e5c626973e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\1f399525beef3525e58cd2fd32399df5d750d643\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\classes_3e2615be31b2fd3e213633e286af26394ce768e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\3e5ba6fb4dbaa9c09d8ab38cbbadd79b8feb8871\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\classes_3a7d11e45bbc1780aa500f8a33d39460abd4fc79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\db3ef9d1314a2b83e2fdee49781b31c0a9e53cc2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\TEDRadioHour\app\build\intermediates\pre-dexed\debug\classes_0d3ba0ebc02b48fe522218bd8f8ead66a4517474.jar" />
+    </item>
+
+</items>
