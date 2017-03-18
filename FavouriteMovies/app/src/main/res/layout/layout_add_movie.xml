@@ -14,15 +14,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="1"
-        android:id="@+id/linearLayout_addMovie_name"
-        android:layout_weight="0.13">
+        android:id="@+id/linearLayout_addMovie_name">
 
         <TextView
             android:text="@string/textView_movieName"
-            android:layout_width="wrap_content"
+            android:layout_width="60dp"
             android:layout_height="match_parent"
             android:id="@+id/textView_movieNameLabel"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            android:layout_gravity="center"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="normal|bold" />
 
         <EditText
             android:layout_width="match_parent"
@@ -30,7 +33,7 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/editText_movieNameValue"
-            android:maxLength="50"/>
+            android:maxLength="50" />
 
     </LinearLayout>
 
@@ -39,16 +42,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView_descriptionLabel"
-        android:textAppearance="@style/TextAppearance.AppCompat" />
-
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textStyle="normal|bold" />
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:inputType="textMultiLine"
         android:ems="10"
+        android:maxLines="5"
+        android:lines="5"
+        android:scrollbars="vertical"
+        android:requiresFadingEdge="vertical"
         android:id="@+id/textView_description_value"
-        android:layout_weight="0.31"
-        android:background="@drawable/border"/>
+        android:layout_weight="0.58"
+        android:background="@drawable/border"
+        android:textSize="14sp" />
+    </ScrollView>
 
     <Space
         android:layout_width="match_parent"
@@ -59,20 +74,22 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="40dp">
+        android:layout_height="40dp"
+        android:weightSum="1">
 
         <TextView
             android:text="@string/textView_genre"
-            android:layout_width="77dp"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView_genreLabel"
-            android:textAppearance="@style/TextAppearance.AppCompat" />
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textStyle="normal|bold" />
 
         <Spinner
             android:layout_height="wrap_content"
             android:id="@+id/spinner_genre"
             android:entries="@array/spinner_genreValues"
-            android:layout_width="267dp" />
+            android:layout_width="match_parent" />
 
     </LinearLayout>
 
@@ -80,23 +97,30 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:layout_weight="0.09">
 
         <TextView
             android:text="@string/textView_ratingLabelq"
-            android:layout_width="75dp"
+            android:layout_width="68dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView_ratingLabel"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:layout_weight="0.58" />
+            android:textStyle="normal|bold" />
 
         <SeekBar
-            android:layout_width="259dp"
+            android:layout_width="214dp"
             android:layout_height="wrap_content"
             android:id="@+id/seekBar_rating"
             android:max="5"
 
-            android:progress="@android:integer/config_longAnimTime" />
+            android:progress="@android:integer/config_longAnimTime"
+            android:layout_weight="1.18" />
+
+        <TextView
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView_ratingValueAdd" />
 
     </LinearLayout>
 
@@ -112,8 +136,9 @@
             android:layout_width="59dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView_yearLabel"
-            android:layout_weight="0.30"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            android:layout_weight="0.20"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="normal|bold" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -121,7 +146,8 @@
             android:inputType="number"
             android:ems="10"
             android:id="@+id/editText_yearValue"
-            android:layout_weight="0.52" />
+            android:layout_weight="0.64"
+            android:maxLength="4"/>
 
         <EditText
             android:layout_width="0dp"
@@ -142,8 +168,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView_IMDBLabel"
-            android:layout_weight="1"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            android:layout_weight="0.75"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="normal|bold" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -152,7 +179,13 @@
             android:ems="10"
             android:id="@+id/editText_imdbLink"
             android:layout_weight="1" />
+
     </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+   />
 
     <Button
         android:text="@string/button_addMovie"
