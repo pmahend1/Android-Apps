@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/linearLayout_addMovie_name"
+        android:layout_weight="0.13">
+
+        <TextView
+            android:text="@string/textView_movieName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView_movieNameLabel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText_movieNameValue"
+            android:maxLength="50"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/textView_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_descriptionLabel"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/textView_description_value"
+        android:layout_weight="0.31"
+        android:background="@drawable/border"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space_50dp"
+        android:minHeight="20dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:text="@string/textView_genre"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_genreLabel"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <Spinner
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_genre"
+            android:entries="@array/spinner_genreValues"
+            android:layout_width="267dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:text="@string/textView_ratingLabelq"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_ratingLabel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:layout_weight="0.58" />
+
+        <SeekBar
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar_rating"
+            android:max="5"
+
+            android:progress="@android:integer/config_longAnimTime" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="357dp"
+        android:layout_height="43dp"
+        android:weightSum="1"
+        android:layout_weight="0.00">
+
+        <TextView
+            android:text="@string/textView_yearLabel"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_yearLabel"
+            android:layout_weight="0.30"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText_yearValue"
+            android:layout_weight="0.52" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText_yearValue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/textView_IMDBLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_IMDBLabel"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText_imdbLink"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Button
+        android:text="@string/button_addMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_addMovieOk" />
+
+</LinearLayout>
