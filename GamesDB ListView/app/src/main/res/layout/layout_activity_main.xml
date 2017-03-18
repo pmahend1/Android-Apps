@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.uncc.prateek.gamesdb.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:text="@string/editText_GameName"
+            android:ems="10"
+            android:id="@+id/editText_GameName"
+            android:layout_weight="1.04"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:text="@string/button_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_search" />
+
+    </LinearLayout>
+
+   <!-- <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        android:id="@+id/scrollView_gamesList"
+        android:layout_weight="0.88">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup_gamesList">
+
+            </RadioGroup>
+    </ScrollView>-->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="362dp"
+        android:id="@+id/listView_results"
+        android:layout_weight="0.46" />
+
+    <Button
+        android:text="@string/button_Go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_Go" />
+
+</LinearLayout>
