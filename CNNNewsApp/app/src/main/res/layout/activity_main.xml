@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.uncc.prateek.cnnnewsapp.MainActivity"
+    android:weightSum="1">
+
+    <Button
+        android:text="@string/string_getNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_getNews"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/cnn"
+        android:id="@+id/imageView_newsImage"
+        android:layout_weight="1.11" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="232dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                android:id="@+id/listView_data" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:weightSum="1"
+        android:layout_weight="0.09">
+
+
+        <Button
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_first"
+            android:background="@drawable/first" />
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_previous"
+            android:background="@drawable/previous" />
+
+        <Button
+            android:text="@string/button_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_finish"
+            android:layout_weight="1.16" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_next"
+            android:background="@drawable/next" />
+
+        <Button
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_last"
+            android:background="@drawable/last"
+            android:layout_weight="0.07" />
+    </LinearLayout>
+</LinearLayout>
