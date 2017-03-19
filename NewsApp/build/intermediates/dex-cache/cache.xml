@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.1_86d77730f5ec7fb3b9d2646356b075cd731ee48b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.1_69470138ce0dd3fb0495fa830d42be2e1652d5a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.1_bc16ace5ee5181b84c937e6afbb13ffe02e53854.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_a32cf85196f82e44ab214e68cd506dc1d365a96f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_3010785c9a33652fc52b657fee10582ef4da08cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_f7ce4a2b8db88bce7babd228c355c5480853223f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_7de96d17bb75e5cfa07bd4c40f6779b116f8eb5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_3847874fe84c7dfd93285946f57c2756ffa766b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_5a2417c3292027a5f8084837c29435bf2d61972f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\NewsApp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_e2320100511310cc8057a2d0527357684dfcf1f4.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uncc.prateek.newsapp.MainActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:weightSum="1"
+        android:layout_weight="0.05">
+
+        <TextView
+            android:text="@string/textView_SelectNewsSource"
+            android:layout_width="146dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="22dp"
+            android:id="@+id/textView_SelectNewsSource"
+            android:textColor="@android:color/background_dark"
+            android:textSize="12sp" />
+
+        <Spinner
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/textView_SelectNewsSource"
+            android:id="@+id/spinner_newsSources"
+            android:layout_toEndOf="@+id/textView_SelectNewsSource"
+            android:layout_weight="0.46" />
+    </LinearLayout>
+
+    <Button
+        android:text="@string/button_GetNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/button_GetNews"
+        android:layout_below="@+id/textView_SelectNewsSource"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_search_category_default"
+        android:id="@+id/imageView_image"
+        android:layout_weight="0.50" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:id="@+id/scrollView_newsItem"
+        android:layout_weight="0.05">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                android:id="@+id/listView_news" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:weightSum="1"
+        android:layout_weight="0.09">
+
+
+        <Button
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_first"
+            android:background="@drawable/first" />
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_previous"
+            android:background="@drawable/previous" />
+
+        <Button
+            android:text="@string/button_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_finish"
+            android:layout_weight="1.16" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_next"
+            android:background="@drawable/next" />
+
+        <Button
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_last"
+            android:background="@drawable/last"
+            android:layout_weight="0.07" />
+    </LinearLayout>
+
+</LinearLayout>

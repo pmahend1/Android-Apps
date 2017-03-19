@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="textView_SelectNewsSource">Select News Source</string>
+    <string name="button_GetNews">Get News</string>
+    <string name="button_finish">Finish</string>
+    <string-array name="spinner_newsSources">
+        <item>BBC</item>
+        <item>CNN</item>
+        <item>Buzzfeed</item>
+        <item>ESPN</item>
+        <item>Sky News</item>
+    </string-array>
+</resources>
