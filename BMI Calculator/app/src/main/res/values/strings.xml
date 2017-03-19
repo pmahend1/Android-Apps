@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">In Class 2a</string>
+    <string name="textView_BMI">Body Mass Index (BMI)</string>
+    <string name="textView_Weight">Weight</string>
+    <string name="textView_height">Height</string>
+    <string name="button">Calculate BMI</string>
+    <string name="textView_BMIresult" />
+    <string name="textView_weightresult" />
+    <string name="editText_feet" />
+    <string name="editText_inches" />
+    <string name="button_calculateBMI">Calculate BMI</string>
+</resources>
