@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BBC News</string>
+    <string name="show_news">Show News</string>
+    <string name="show_blocked">Show Blocked</string>
+    <string name="clear_blocked">Clear Blocked</string>
+    <string name="sort_atoz">Sort A to Z</string>
+    <string name="sort_z_to_a">Sort Z to A</string>
+
+</resources>

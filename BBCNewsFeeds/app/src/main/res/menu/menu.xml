@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/show_news"
+        android:title="@string/show_news"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/show_blocked"
+        android:title="@string/show_blocked"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_atoz"
+        android:title="@string/sort_atoz"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_ztoa"
+        android:title="@string/sort_z_to_a"
+        app:showAsAction="never" />
+
+</menu>

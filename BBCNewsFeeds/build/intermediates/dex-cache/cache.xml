@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\Android-Apps.git\trunk\BBCNewsFeeds\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f4b08c89e6b234614286677dc1e0332b4f79fbb4">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\BBCNewsFeeds\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_78eac43314a5e261cacf400384b45a276f3d1d18\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\.gradle\caches\modules-2\files-2.1\org.ocpsoft.prettytime\prettytime\4.0.1.Final\5537d74e2102a82fd937dd9b8a652e3b26026a7a\prettytime-4.0.1.Final.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5537d74e2102a82fd937dd9b8a652e3b26026a7a">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\BBCNewsFeeds\app\build\intermediates\transforms\dex\debug\folders\1000\10\prettytime-4.0.1.Final_389008ca4881f08711d3acdee3a35431b06928af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\Android-Apps.git\trunk\BBCNewsFeeds\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\BBCNewsFeeds\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_781fc0c8181530181e6c528002dc0e4ae0628b8e\classes.dex" />
+    </item>
+
+</items>
