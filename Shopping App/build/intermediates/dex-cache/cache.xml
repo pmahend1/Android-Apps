@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\Android-Apps.git\trunk\Midterm800966178\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\Midterm800966178\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_cebbe36cec0b68a9d454a1e7efefdedfbc2d0251\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\Android-Apps.git\trunk\Midterm800966178\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e285cf5c1664b7562cb3cd91ebaffe16fc78f5f">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\Midterm800966178\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f3b762dcec13b7d96c4a5c3c669c8a913d707e3e\classes.dex" />
+    </item>
+
+</items>
