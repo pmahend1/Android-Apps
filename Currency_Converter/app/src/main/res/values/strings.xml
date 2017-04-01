@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Currency Converter App</string>
+    <string name="button_convert">Convert</string>
+    <string name="textview_currencyFrom">Currency From</string>
+    <string name="radioButton_AUD">AUD</string>
+    <string name="radioButton_CAD">CAD</string>
+    <string name="radioButton_INR">INR</string>
+    <string name="textView_currencyTo">Currency To</string>
+    <string name="radioButton_USD">USD</string>
+    <string name="radioButton_GBP">GBP</string>
+    <string name="textView_enteredAmount">Entered Amount</string>
+    <string name="button_clear">Clear</string>
+</resources>

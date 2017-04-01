@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.0_3153a7524703cc669c81a8c40ee5b82f205bfa99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.0_694c1ee5aec0cb9c3d6243a9532fb672eef9ad47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_f709acfc1fcbef34f7970bac9ff11b0ea569d835.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_f709acfc1fcbef34f7970bac9ff11b0ea569d835.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.0_9e167a326e2044d4c7330a97296d5b10c2088396.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.0_7ae8f302ccc7675f1bf22726f04867afa23e4470.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_fcbdd74fb9bf5f410030532269be2cec7adc5d69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.0_0c6bf0422a65dc73d483945a579d3508d58b9ee1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.0_8266268d9e90a58de433de003604b09765d30cd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.0_8266268d9e90a58de433de003604b09765d30cd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.0_7ae8f302ccc7675f1bf22726f04867afa23e4470.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_fcbdd74fb9bf5f410030532269be2cec7adc5d69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.0_0c6bf0422a65dc73d483945a579d3508d58b9ee1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.0_3307ab68acd31a68df863a5cb66236c13f13d21e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_3455e3346c0f55de57564ff9b3e3bd34c9a6e716.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.0_62d555ea441c5aff2417f1afc1cb9bf53ccc3035.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.0_62d555ea441c5aff2417f1afc1cb9bf53ccc3035.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.1.0_9e167a326e2044d4c7330a97296d5b10c2088396.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.1.0_3307ab68acd31a68df863a5cb66236c13f13d21e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.0_97c3dcb9284e8d0dd1210a9e883795064f1d450c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.0_3153a7524703cc669c81a8c40ee5b82f205bfa99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.0_694c1ee5aec0cb9c3d6243a9532fb672eef9ad47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_8c118d0c0377e1f57a33b662099d09558187cbf2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_8c118d0c0377e1f57a33b662099d09558187cbf2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_3455e3346c0f55de57564ff9b3e3bd34c9a6e716.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Prateek\AndroidStudioProjects\Currency_Converter\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.0_97c3dcb9284e8d0dd1210a9e883795064f1d450c.jar" />
+    </item>
+
+</items>
