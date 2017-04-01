@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">The Games DB</string>
+    <string name="button_search">Search</string>
+    <string name="button_Go">Go</string>
+    <string name="textView_GameName" />
+    <string name="textView_Overview">Overview :</string>
+    <string name="textView_Genre">Genre :</string>
+    <string name="textView_Publisher">Publisher :</string>
+    <string name="textView_ViewGenre" />
+    <string name="textView_ViewPublisher" />
+    <string name="button_PlayTrailer">Play Trailer</string>
+    <string name="button_SimilarGames">Similar Games</string>
+    <string name="button_Finish">Finish</string>
+    <string name="button_Finish2">Finish</string>
+    <string name="textView_SimilarGamesTo" />
+    <string name="editText_GameName" />
+    <string name="textView_GameNameView" />
+    <string name="textView_GameYearView" />
+    <string name="textView_PlatformView" />
+</resources>
