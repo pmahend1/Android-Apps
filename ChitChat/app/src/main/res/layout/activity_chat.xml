@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.praneeth.chitchat.ChatActivity">
+
+    <TextView
+        android:id="@+id/Channel_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Channel_Name"
+        android:textColor="@android:color/black" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="418dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView_SendText"
+            android:layout_width="167dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.96"
+            android:text="@string/textView_SendText"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/button_Send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_Send" />
+    </LinearLayout>
+
+</LinearLayout>

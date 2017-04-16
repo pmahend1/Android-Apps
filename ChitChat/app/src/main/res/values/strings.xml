@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Chit Chat</string>
+    <string name="email">Email :</string>
+    <string name="password">Password :</string>
+    <string name="button_Login">Login</string>
+    <string name="tv">OR, SIGN UP</string>
+    <string name="FirstName">First Name :</string>
+    <string name="LastName">Last Name :</string>
+    <string name="Email_Su">Email :</string>
+    <string name="password_su">Password :</string>
+    <string name="button_SignUp">Sign Up</string>
+    <string name="editText_Email_L" />
+    <string name="editText_Password_L" />
+    <string name="editText_FN_S" />
+    <string name="editText_LN_S" />
+    <string name="editText_Email_S" />
+    <string name="editText_Password_S" />
+    <string name="textView_YSubChan">Your Subscribed Channels :</string>
+    <string name="button_AddMore">Add More</string>
+    <string name="button_Done">Done</string>
+    <string name="textView_Channel" />
+    <string name="button_AddView" />
+    <string name="Channel_Name" />
+    <string name="textView_SendText" />
+    <string name="button_Send">Send</string>
+</resources>
