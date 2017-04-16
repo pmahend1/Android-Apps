@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "432761586955",
+    "firebase_url": "https://uncc-porject-1.firebaseio.com",
+    "project_id": "uncc-porject-1",
+    "storage_bucket": "uncc-porject-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432761586955:android:4f7ab01275fe48d3",
+        "android_client_info": {
+          "package_name": "com.uncc.prateek.firebaseauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432761586955-scdd78a2l0ts2knuruei08th640hq181.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uncc.prateek.firebaseauthentication",
+            "certificate_hash": "1bf88600ba8e0dd13953b19288243b83b2986427"
+          }
+        },
+        {
+          "client_id": "432761586955-cn579hu6ttvrbulvbqo7t7fsv18us7h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu47g3p9GPhxIVBIUbdxu6LrDK6EOaOrQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432761586955-cn579hu6ttvrbulvbqo7t7fsv18us7h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432761586955:android:35581b67a7fefa8a",
+        "android_client_info": {
+          "package_name": "com.uncc.prateek.weatherappfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432761586955-0ke6l0le1ptme51phtog9dhmp8hru8hu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uncc.prateek.weatherappfirebase",
+            "certificate_hash": "1bf88600ba8e0dd13953b19288243b83b2986427"
+          }
+        },
+        {
+          "client_id": "432761586955-cn579hu6ttvrbulvbqo7t7fsv18us7h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu47g3p9GPhxIVBIUbdxu6LrDK6EOaOrQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432761586955-cn579hu6ttvrbulvbqo7t7fsv18us7h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

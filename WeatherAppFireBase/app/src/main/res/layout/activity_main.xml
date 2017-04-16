@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uncc.prateek.weatherappfirebase.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewCondition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Condition"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonSunny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunny"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <Button
+        android:id="@+id/buttonFoggy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Foggy"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="340dp" />
+</LinearLayout>

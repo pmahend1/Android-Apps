@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="038f7f41a83bc38922e0c295939f2e8cc7c7072d">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_508d0fa37edb6fc7ae88eec76bf4f246d3164d6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\8c88a4abb8db60cd8a0c7624d472ef2aa12e2205\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\pre-dexed\debug\classes_0919cd090d483d86f5181191608901f44989b4de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\d42b46b1196727149cb97a25f22cbbf40f931582\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\pre-dexed\debug\classes_72c61447049c2685dae7cf84a1022ed878d0353d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\e5f10940ad8b52db00b5e663dda66ee459971c0b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\pre-dexed\debug\classes_6da6022f6ac430904df63f48a1c016f0bc0f6f42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\4138b7391f850e7965c8dcba5ffbdc1a2327cdf1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\pre-dexed\debug\classes_e0aeb0f0780f127031e772eed2bfe90316c6871d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7d7c26c038b9f7d589a7c7e85c4d23d944d4f9fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\1a23217ac864ec0e5d21c6fc043d33e84c873221\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\pre-dexed\debug\classes_86e870f603e1cf367e5a996ed5e496dd0242ddf4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\3473731e419484bfe2a102ef983c22dd4d6edd61\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\pre-dexed\debug\classes_cd0943f2dd7d7ae48e97e8ea210270d4928d3a7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\f232e1e0315a3594587247fe8a95c61934f44d3c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\pre-dexed\debug\classes_7d112f3bc2dca34b89984ee9ace42b52d0c4953d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\2d0001932ea0af857dead5df1acfb4f7c60b463c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25f55515117e14a658120a7b01a9ea5170409db4">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\pre-dexed\debug\classes_4a26c43f0937385f86de8f3c7e7c7dbecfdc4418.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\c24f8681d5d565ac4af503a1d2014e7fe5956e39\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\pre-dexed\debug\classes_9a74e5eae2880d3108c4d6aa3c5fdf53e09ec945.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\55170f62c99d4f3a042b5066fc777dfff9caff11\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\pre-dexed\debug\classes_d82931dfd65672705eb178213175167d0d09db7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Prateek\.android\build-cache\b971959b09c2ac87b10e3588c686d975ec81381f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12032271e6be735e811ad529cb08ff066c381640">
+        <dex dex="C:\Users\Prateek\Android-Apps.git\trunk\WeatherAppFireBase\app\build\intermediates\pre-dexed\debug\classes_eac4e310d048bd868321e830dc323a9c843295b4.jar" />
+    </item>
+
+</items>
