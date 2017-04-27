@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Firebase Authentication</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading...</string>
+    <string name="google_status_fmt">google_status_fmt</string>
+    <string name="firebase_status_fmt">firebase_status_fmt</string>
+
+</resources>
