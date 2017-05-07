@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="200dp">
+
+            <TextView
+                android:id="@+id/messagechat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.03"
+                android:text="TextView" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/usernamechat"
+                android:layout_weight="0.10" />
+        </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageChat"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/deleteChat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/delete"
+
+        />
+
+
+</LinearLayout>

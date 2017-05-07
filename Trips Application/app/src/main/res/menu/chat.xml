@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addmembers"
+        android:icon="@drawable/addpeopletogroup"
+        android:title="addmembers"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/editTrip"
+        android:icon="@drawable/edit"
+        android:title="editTrip"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        app:showAsAction="always"
+        android:title="Logout">
+    </item>
+
+</menu>

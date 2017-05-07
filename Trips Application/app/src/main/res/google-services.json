@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "827162064085",
+    "firebase_url": "https://planngo-d4574.firebaseio.com",
+    "project_id": "planngo-d4574",
+    "storage_bucket": "planngo-d4574.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827162064085:android:1cf6b2eb9b18d5a9",
+        "android_client_info": {
+          "package_name": "com.example.praneeth.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827162064085-0ufj7eqaamtg64pp2nchpjfa2mvr5j2l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.praneeth.myapplication",
+            "certificate_hash": "4b1a93f66d2d715ead4f864297f6c567da55e354"
+          }
+        },
+        {
+          "client_id": "827162064085-gcqvlj10klthc0r04ve74ace0ftljap9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcY-mzEiJvDgPySiYfvuDH7rnkILA8wF4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827162064085-gcqvlj10klthc0r04ve74ace0ftljap9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

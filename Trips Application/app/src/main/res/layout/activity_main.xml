@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="com.example.praneeth.myapplication.MainActivity"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/emailInput"
+        android:hint="Enter email address"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password1Input"
+        android:hint="Enter password"
+        android:layout_marginBottom="44dp"
+        android:layout_gravity="center"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@android:color/darker_gray"
+        android:text="@string/login"
+        android:layout_gravity="center"/>
+<android.support.v4.widget.Space
+    android:layout_width="50dp"
+    android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/password1Input"
+        android:layout_below="@+id/password1Input"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/darker_gray"
+        android:text="Sign Up"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="0.13">    <TextView
+        android:id="@+id/textViewGoogleSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In via"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:paddingTop="25dp"/>
+
+        <ImageView
+            android:id="@+id/ivGoogleSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

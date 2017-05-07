@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <com.github.siyamed.shapeimageview.CircularImageView
+            android:id="@+id/user_picP"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.75"
+            android:elevation="1dp"></com.github.siyamed.shapeimageview.CircularImageView>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:orientation="vertical"
+            android:layout_weight="0.61"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/userNameP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:textAlignment="viewStart"
+                android:textColor="?attr/actionMenuTextColor"
+                android:textSize="18sp"
+                android:layout_weight="0.83" />
+
+            <TextView
+                android:id="@+id/statusP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="?android:attr/colorFocusedHighlight"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/acceptP"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/accept" />
+
+        <ImageView
+            android:id="@+id/rejectP"
+            android:layout_width="37dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/reject" />
+
+    </LinearLayout>

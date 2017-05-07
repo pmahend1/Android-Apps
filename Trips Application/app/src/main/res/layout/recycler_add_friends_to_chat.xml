@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/addFriendToChatName"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_weight="0.87"
+        android:text="@string/addFriendToChatName" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Select"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/checkBox_Select"
+        android:layout_weight="0.10" />
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.praneeth.myapplication.MainActivity">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/firstNameInput"
+        android:hint="First name"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/firstNameInput"
+        android:layout_alignRight="@+id/firstNameInput"
+        android:layout_alignEnd="@+id/firstNameInput"
+        android:id="@+id/lastNameInput"
+        android:hint="Last name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/emailInput"
+        android:hint="Email"
+        android:layout_below="@+id/lastNameInput"
+        android:layout_alignLeft="@+id/lastNameInput"
+        android:layout_alignStart="@+id/lastNameInput" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password1Input"
+        android:hint="Choose password"
+        android:layout_below="@+id/emailInput"
+        android:layout_alignStart="@+id/emailInput" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/password1Input"
+        android:layout_alignLeft="@+id/password1Input"
+        android:layout_alignStart="@+id/password1Input"
+        android:id="@+id/password2Input"
+        android:hint="Repeat password" />
+
+    <EditText
+        android:id="@+id/genderInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/password2Input"
+        android:layout_below="@+id/password2Input"
+        android:ems="10"
+        android:hint="Enter Gender"
+        android:inputType="textPersonName"
+        android:text="@string/genderInput" />
+
+    <Button
+        android:text="Sign Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginBtn"
+        android:layout_below="@+id/genderInput"
+        android:layout_alignEnd="@+id/genderInput"
+        android:layout_marginTop="49dp" />
+
+    <Button
+        android:text="@android:string/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancelBtn"
+        android:layout_alignBaseline="@+id/loginBtn"
+        android:layout_alignBottom="@+id/loginBtn"
+        android:layout_alignStart="@+id/genderInput" />
+
+</RelativeLayout>

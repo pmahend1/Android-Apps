@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.praneeth.myapplication.ChatActivity">
+
+
+    <TextView
+        android:id="@+id/tvChatTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView_chat"
+            android:layout_width="match_parent"
+            android:layout_height="418dp"></android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="63dp">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/messageField"
+                android:hint="Type message to send"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="0.73"
+                android:layout_gravity="center_vertical" />
+
+            <ImageView
+                android:id="@+id/btnSend"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignTop="@+id/messageField"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@+id/messageField"
+                app:srcCompat="@drawable/send" />
+
+            <ImageView
+                android:id="@+id/btnAttachImage"
+                android:layout_width="38dp"
+                android:layout_height="41dp"
+                android:layout_alignTop="@+id/btnSend"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_toEndOf="@+id/btnSend"
+                android:layout_toRightOf="@+id/btnSend"
+                app:srcCompat="@drawable/gallery" />
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

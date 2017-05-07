@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.praneeth.myapplication.ProfileActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/WelcomeLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.23"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageView_ProPic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="0.64"
+        android:contentDescription="@string/imageView_ProPic"
+        app:srcCompat="@drawable/common_full_open_on_phone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/textView_Status"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:hint="Your Mood!"
+            android:text="@string/textView_Fname" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:text="@string/button2" />
+
+</LinearLayout>

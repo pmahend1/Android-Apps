@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+        <item
+            android:id="@+id/contacts" android:icon="@drawable/addfriend"
+            android:title="addmembers"
+            app:showAsAction="always" />
+    <item
+        android:id="@+id/editProfile"
+        android:icon="@drawable/edit"
+        android:title="Update Profile"
+        app:showAsAction="always" />
+    <item
+            android:id="@+id/logout" android:icon="@drawable/ic_power_settings_new_black_24dp"
+            app:showAsAction="always"
+            android:title="Logout">
+        </item>
+
+    </menu>
