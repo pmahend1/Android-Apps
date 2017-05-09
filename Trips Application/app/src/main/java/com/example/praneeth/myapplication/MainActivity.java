@@ -24,9 +24,20 @@ import com.google.android.gms.common.api.Status;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.auth.GoogleAuthProvider;
+import com.google.firebase.auth.UserProfileChangeRequest;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
     private String email, password;
@@ -209,15 +220,127 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
     private void handleGoogleSignInResult(GoogleSignInResult result) {
         Log.d(TAG, "handleSignInResult:" + result.getStatus());
+        //Log.d(TAG,"dd",result.+"");
         if (result.isSuccess()) {
             GoogleSignInAccount acct = result.getSignInAccount();
-            startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+
+            firebaseAuthWithGoogle(acct);
+
 
         } else {
 
         }
     }
 
+    private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
+        Log.d(TAG, "firebaseAuthWithGoogle:" + acct.getId());
+        final String firstName = acct.getGivenName();
+        final String lastName = acct.getFamilyName();
+        final String gender = "";
+        final String status="";
+        final String photoUrl =acct.getPhotoUrl().toString();
+
+        AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
+        firebaseAuthentication.signInWithCredential(credential)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            // Sign in success, update UI with the signed-in user's information
+                            Log.d(TAG, "signInWithCredential:success");
+                            FirebaseUser user = firebaseAuthentication.getCurrentUser();
+                            final String uid = user.getUid();
+                            final String email =user.getEmail();
+                            final String name = user.getDisplayName();
+
+
+                            DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
+                            databaseReference.child("Users").addListenerForSingleValueEvent(new ValueEventListener() {
+                                @Override
+                                public void onDataChange(DataSnapshot dataSnapshot) {
+                                    if(dataSnapshot.hasChild(uid)){
+                                        startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+                                    }else{
+                                        User user=new User(email,firstName,lastName,photoUrl,firebaseAuthentication.getCurrentUser().getUid(),"",status);
+                                        register(user);
+                                        startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+
+                                    }
+                                }
+
+                                @Override
+                                public void onCancelled(DatabaseError databaseError) {
+
+                                }
+                            });
+                           // updateUI(user);
+                        } else {
+                            // If sign in fails, display a message to the user.
+                            Log.w(TAG, "signInWithCredential:failure", task.getException());
+                            Toast.makeText(MainActivity.this, "Authentication failed.",
+                                    Toast.LENGTH_SHORT).show();
+                            //updateUI(null);
+                        }
+
+                        // ...
+                    }
+                });
+    }
+
+
+    private void register(User usr) {
+        final String fullName = usr.getFirstname() + " " + usr.getLastname();
+        DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
+        String picUrl="";
+        String status="no  status";
+        String key = databaseReference.child("Users").push().getKey();
+        //User user=new User(emailTxt.getText().toString().trim(),firstNameTxt.getText().toString().trim(),lastNameTxt.getText().toString().trim(),picUrl,firebaseAuthentication.getCurrentUser().getUid(),genderInput.getText().toString().trim(),status);
+        Map<String, Object> postValues = usr.toMap();
+        Map<String, Object> childUpdates = new HashMap<>();
+        childUpdates.put("/Users/" + firebaseAuthentication.getCurrentUser().getUid(), postValues);
+        databaseReference.updateChildren(childUpdates);
+        startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+        /*firebaseAuthentication.createUserWithEmailAndPassword(usr.getEmail(), usr.getFirstname())
+                .addOnFailureListener(this, new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        progressDialogue.dismiss();
+                        Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
+                        return;
+                    }
+                })
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        progressDialogue.dismiss();
+                        if(task.isSuccessful()) {
+                             FirebaseUser firebaseUser;
+                            Toast.makeText(getApplicationContext(), "Registration is successful", Toast.LENGTH_SHORT).show();
+                            firebaseUser = firebaseAuthentication.getCurrentUser();
+                            UserProfileChangeRequest userProfileChangeRequest = new UserProfileChangeRequest.Builder()
+                                    .setDisplayName(fullName).build();
+                            firebaseUser.updateProfile(userProfileChangeRequest)
+                                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                            Log.d("Success", "Success");
+                                        }
+                                    });
+
+                            DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
+                            String picUrl="";
+                            String status="no  status";
+                            String key = databaseReference.child("Users").push().getKey();
+                            User user=new User(emailTxt.getText().toString().trim(),firstNameTxt.getText().toString().trim(),lastNameTxt.getText().toString().trim(),picUrl,firebaseAuthentication.getCurrentUser().getUid(),genderInput.getText().toString().trim(),status);
+                            Map<String, Object> postValues = user.toMap();
+                            Map<String, Object> childUpdates = new HashMap<>();
+                            childUpdates.put("/Users/" + firebaseAuthentication.getCurrentUser().getUid(), postValues);
+                            databaseReference.updateChildren(childUpdates);
+                            startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+                        }
+                    }
+                });*/
+    }
 
 }
 

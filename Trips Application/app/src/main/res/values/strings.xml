@@ -22,6 +22,7 @@
     <string name="textView_FriendsTitle">Friends :</string>
     <string name="textView_PendingRequests_Title">Pending Requests : </string>
     <string name="textView_RecommendationsTitle">Recommendations :</string>
+
     <string name="button_newTrip">Create New Trip</string>
     <string name="editText_TripName" />
     <string name="button_save">Save</string>

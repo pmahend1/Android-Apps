@@ -30,6 +30,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
     ArrayList<Trip> joinableList;
     ArrayList<Trip> myTripsList;
 
+    final String TAG ="log";
+
     MyTripAdapter myTripsAdapter;
     TripAdapter joinableAdapter;
     RecyclerView joinableTripsView, myTripsView;
@@ -87,6 +89,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         myTripsView = (RecyclerView) findViewById(R.id.recyclerViewMyTripsList);
         try {
             currentUserId = firebaseAuthentication.getCurrentUser().getUid();
+            Log.d(TAG,"Current user id "+ currentUserId);
 
         } catch (Exception e) {
 
