@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uncc.prateek.final800966178.HomeActivity">
+
+    <Button
+        android:id="@+id/btnGetDeal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get A Deal" />
+
+    <Button
+        android:id="@+id/btnCreateTrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Trip" />
+
+    <Button
+        android:id="@+id/btnTripList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trip List" />
+
+    <Button
+        android:id="@+id/btnWishList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wish List" />
+</LinearLayout>
