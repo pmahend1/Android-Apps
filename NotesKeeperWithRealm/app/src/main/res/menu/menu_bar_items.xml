@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/reflist"
+        android:title="@string/showall"
+        android:onClick="showall"
+        />
+    <item android:id="@+id/fav"
+        android:title="@string/showcompleted"
+        android:onClick="showcomp"/>
+
+    <item android:id="@+id/sortinc"
+        android:title="@string/showpend"
+        android:onClick="showpen"/>
+    <item android:id="@+id/sortdec"
+        android:title="@string/showbytime"
+        android:onClick="showt"/>
+    <item android:id="@+id/sortdec1"
+        android:title="@string/showbyprio"
+        android:onClick="showpri"/>
+
+
+
+</menu>
